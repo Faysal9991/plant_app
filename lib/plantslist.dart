@@ -40,16 +40,16 @@ class _PlantListState extends State<PlantList> {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: <Widget>[
+      children:[
         Container(
-          height: 350.0,
+          height: 400.0,
           child: ListView(
             padding: EdgeInsets.only(left: 25.0),
             controller: _scrollController,
             scrollDirection: Axis.horizontal,
-            children: <Widget>[
+            children:[
               getPlantCard(
-                  'assets/whiteplant.png', '25', 'OUTDOOR', 'Aloe Vera'),
+                  'assets/rose.png', '25', 'OUTDOOR', 'Aloe Vera'),
               SizedBox(width: 15.0),
               getPlantCard('assets/smallplant.png', '25', 'INDOOR', 'Ficus'),
               SizedBox(width: 15.0),

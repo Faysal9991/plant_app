@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage>
           padding: EdgeInsets.only(right: 10.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
+            children: [
               IconButton(
                 icon: Icon(Icons.menu),
                 onPressed: () {},
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage>
             labelColor: Colors.black,
             unselectedLabelColor: Colors.grey.withOpacity(0.5),
             isScrollable: true,
-            tabs: <Widget>[
+            tabs: [
               Tab(
                   child: Text(
                     'Top',

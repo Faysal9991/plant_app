@@ -5,9 +5,9 @@ class PlantDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: ListView(
-        children: <Widget>[
+        children: [
           Stack(
-            children: <Widget>[
+            children:[
               Container(
                 height: MediaQuery.of(context).size.height,
                 width: MediaQuery.of(context).size.width,
@@ -74,7 +74,7 @@ class PlantDetail extends StatelessWidget {
                 padding: EdgeInsets.only(left: 25.0, top: 60.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
+                  children: [
                     Text(
                       'INDOOR',
                       style: TextStyle(
